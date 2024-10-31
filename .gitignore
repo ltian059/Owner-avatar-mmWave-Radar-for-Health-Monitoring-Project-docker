@@ -1,0 +1,57 @@
+# Ignore Anaconda and Conda directories
+anaconda3/
+.conda/
+.python_history
+
+# Ignore bash and shell configuration/history
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
+
+# Ignore configuration and cache directories
+.cache/
+.config/
+.gnupg/
+.local/
+.nv/
+.ssh/
+.mozilla/
+.java/
+.viminfo
+.xsessionrc
+
+# Ignore specific tool configurations
+.gitconfig
+.dockerignore
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Ignore Docker images and build artifacts
+*.tar
+*.img
+.dockerignore
+Dockerfile_*
+
+# Ignore large binary files and model files (optional)
+epoch155.pt
+
+# Ignore any remaining files generated during runtime
+output/
+input_data/
+Programs/
+Music/
+Videos/
+Desktop/
+Documents/
+Downloads/
+Pictures/
+Public/
+Templates/
+PycharmProjects/
+d2lenvironment.yaml
